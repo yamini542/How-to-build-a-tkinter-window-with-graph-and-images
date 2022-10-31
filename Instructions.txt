@@ -27,7 +27,7 @@ step11: check the scatterplot image to visualize the variation check the code in
 note: mongodb url to connect
 password: oKov2HN7On5CBD4n 
 username: Yamini_admin
-mongodb+srv://Yamini_admin:oKov2HN7On5CBD4n@ranking.opqbg9f.mongodb.net/?retryWrites=true&w=majority
+mongodb+srv://Yamini_admin:yourdbpassword@ranking.opqbg9f.mongodb.net/?retryWrites=true&w=majority
 
 *******************************************************************************************************************
 note: if in case any error of dns or certification validation try in this in your code
