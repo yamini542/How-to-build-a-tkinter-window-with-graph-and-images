@@ -37,7 +37,7 @@ class Show_DataAnalysis:
         
        
         #****************************************************
-        client=MongoClient("mongodb+srv://Yamini_admin:oKov2HN7On5CBD4n@ranking.opqbg9f.mongodb.net/?retryWrites=true&w=majority", tls=True, tlsAllowInvalidCertificates=True)
+        client=MongoClient("mongodb+srv://Yamini_admin:yourdbpassword@ranking.opqbg9f.mongodb.net/?retryWrites=true&w=majority", tls=True, tlsAllowInvalidCertificates=True)
         mydb=client["Predict_Income"]
 #---- collection name is Income_data we are imported the csv file from the mongodb---------
         Name_Collection = mydb["Income_data"]
