@@ -1,0 +1,38 @@
+stept1: install the ide(Anacond) and install necessary libraies from the anaconda command prompt and setup the path for the environment variables
+*******************************************************************************************************************
+step2: install Mongodb compass for the database for the localhost or you can use direclty Mongodb atlas for the cloud database usage.
+******************************************************************************************************************* 
+step2: remember if the necessary libraries are already satisfied then no need of installing otherwise do install from the anaconda prompt requiered libraries ----------conda install library name-----------
+*******************************************************************************************************************
+step3: download the zip folder that extract it that contains .py fiels and dataset(.csv) and images extract correclty in the same location where all folders are there
+*******************************************************************************************************************
+step4: after successful installation of everything(ide,mongodb and libraries)
+step5: Go to the folder mongodbconnections,txt copy the path url
+*******************************************************************************************************************
+step6:go to mongodb compass paste the url and connect it to the mongodb cloud or if u want to connect to the only code direclty go to compass and connect it
+*******************************************************************************************************************
+step7: In mongodb atlas or mongodb cloud you can direclty import the csv files after creating the database name
+*******************************************************************************************************************
+step8:after successful connection of database lets go the folder open the test2display.py file in spyder editor and run it (check for the paths and databse connections)
+*******************************************************************************************************************
+step8: In window it will show 2 buttons if you click on first button it will show the graph and second button shows the decision tree of the decision tree
+*******************************************************************************************************************
+step9: check the file of projectincome.py to know the implementation decision tree
+*******************************************************************************************************************
+step10:check the images of dt_10rows and dt_40rows(check the code in prjectincome.py file) here dt_10rows shows the decision tree of 10 rows in the data set
+*******************************************************************************************************************
+step11: check the scatterplot image to visualize the variation check the code in projectincome.py file 
+************************************************************************************************************
+
+note: mongodb url to connect
+password: oKov2HN7On5CBD4n 
+username: Yamini_admin
+mongodb+srv://Yamini_admin:oKov2HN7On5CBD4n@ranking.opqbg9f.mongodb.net/?retryWrites=true&w=majority
+
+*******************************************************************************************************************
+note: if in case any error of dns or certification validation try in this in your code
+        client=MongoClient("mongodb+srv://Yamini_admin:oKov2HN7On5CBD4n@ranking.opqbg9f.mongodb.net/?retryWrites=true&w=majority", tls=True, tlsAllowInvalidCertificates=True)
+*****************************************************************************************************************
+
+
+
